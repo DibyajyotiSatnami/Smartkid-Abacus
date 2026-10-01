@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".4" r=".8"><stop offset="0" stop-color="#fff6e8"/><stop offset="1" stop-color="#ffd9b0"/></radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c27d43"/><stop offset="1" stop-color="#7d4419"/></linearGradient>
+    <radialGradient id="shine" cx=".35" cy=".3" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <g id="bead"><ellipse rx="26" ry="14"/><ellipse rx="26" ry="14" fill="url(#shine)"/></g>
+  </defs>
+  <rect width="600" height="480" fill="url(#bg)"/>
+  <g opacity=".35">
+    <circle cx="80" cy="70" r="40" fill="#ffb020"/><circle cx="530" cy="420" r="60" fill="#ff4f8b"/><circle cx="540" cy="60" r="22" fill="#8b5cf6"/>
+  </g>
+  <!-- abacus (tilted) -->
+  <g transform="translate(60 90) rotate(-4)">
+    <rect width="480" height="300" rx="16" fill="url(#frame)"/>
+    <rect x="20" y="20" width="440" height="260" rx="8" fill="#fff8ee"/>
+    <rect x="20" y="96" width="440" height="10" fill="#7d4419"/>
+    <g stroke="#c9a074" stroke-width="5">
+      <line x1="75" y1="20" x2="75" y2="280"/><line x1="145" y1="20" x2="145" y2="280"/><line x1="215" y1="20" x2="215" y2="280"/>
+      <line x1="285" y1="20" x2="285" y2="280"/><line x1="355" y1="20" x2="355" y2="280"/><line x1="425" y1="20" x2="425" y2="280"/>
+    </g>
+    <!-- heaven beads -->
+    <use href="#bead" x="75" y="40" fill="#ff7a1a"/><use href="#bead" x="145" y="80" fill="#ff4f8b"/>
+    <use href="#bead" x="215" y="40" fill="#8b5cf6"/><use href="#bead" x="285" y="80" fill="#2563eb"/>
+    <use href="#bead" x="355" y="40" fill="#22c55e"/><use href="#bead" x="425" y="40" fill="#ffb020"/>
+    <!-- earth beads -->
+    <g fill="#ff7a1a"><use href="#bead" x="75" y="122"/><use href="#bead" x="75" y="150"/><use href="#bead" x="75" y="236"/><use href="#bead" x="75" y="264"/></g>
+    <g fill="#ff4f8b"><use href="#bead" x="145" y="180"/><use href="#bead" x="145" y="208"/><use href="#bead" x="145" y="236"/><use href="#bead" x="145" y="264"/></g>
+    <g fill="#8b5cf6"><use href="#bead" x="215" y="122"/><use href="#bead" x="215" y="150"/><use href="#bead" x="215" y="178"/><use href="#bead" x="215" y="264"/></g>
+    <g fill="#2563eb"><use href="#bead" x="285" y="122"/><use href="#bead" x="285" y="208"/><use href="#bead" x="285" y="236"/><use href="#bead" x="285" y="264"/></g>
+    <g fill="#22c55e"><use href="#bead" x="355" y="180"/><use href="#bead" x="355" y="208"/><use href="#bead" x="355" y="236"/><use href="#bead" x="355" y="264"/></g>
+    <g fill="#ffb020"><use href="#bead" x="425" y="122"/><use href="#bead" x="425" y="150"/><use href="#bead" x="425" y="178"/><use href="#bead" x="425" y="206"/></g>
+  </g>
+  <!-- child's right hand: thumb pushing a bead up -->
+  <g transform="translate(250 300) rotate(-10)">
+    <path d="M-20 200 Q-30 120 10 80 L60 60 Q90 55 96 80 L100 140 Q90 200 60 200Z" fill="#cf9165"/>
+    <path d="M10 82 Q-4 50 6 28 Q16 14 28 28 L36 70Z" fill="#d99c70"/>
+    <ellipse cx="14" cy="30" rx="10" ry="7" fill="#f2c7a6"/>
+    <path d="M60 62 Q66 20 80 10 Q94 8 92 26 L88 70Z" fill="#d99c70"/>
+    <ellipse cx="84" cy="16" rx="8" ry="6" fill="#f2c7a6"/>
+    <path d="M90 76 Q110 66 116 82 Q118 98 98 104Z" fill="#cf9165"/>
+    <path d="M94 108 Q112 104 114 118 Q112 132 96 132Z" fill="#cf9165"/>
+    <rect x="-40" y="170" width="150" height="80" rx="20" fill="#2563eb"/>
+  </g>
+  <!-- left hand index finger -->
+  <g transform="translate(120 330) rotate(12)">
+    <path d="M0 160 Q-10 80 30 60 L40 -4 Q48 -18 58 -4 L62 60 Q92 70 90 120 L84 160Z" fill="#c88a5d"/>
+    <ellipse cx="49" cy="0" rx="8" ry="6" fill="#efc09c"/>
+    <rect x="-20" y="140" width="130" height="70" rx="20" fill="#2563eb"/>
+  </g>
+  <!-- motion sparkles -->
+  <g stroke="#ff7a1a" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M330 248 l0 -22"/><path d="M344 252 l8 -18"/><path d="M316 252 l-8 -18"/>
+  </g>
+  <g fill="#ffb020"><path d="M480 300 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/></g>
+</svg>

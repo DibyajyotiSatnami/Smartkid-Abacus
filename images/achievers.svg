@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe7f0"/><stop offset="1" stop-color="#ffd8b8"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset=".5" stop-color="#ffb800"/><stop offset="1" stop-color="#e08a00"/></linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#5b33c4"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- light rays -->
+  <g fill="#fff" opacity=".35">
+    <path d="M400 0 L300 450 H360Z"/><path d="M400 0 L440 450 H500Z"/><path d="M400 0 L560 450 H640Z"/><path d="M400 0 L160 450 H230Z"/>
+  </g>
+  <!-- banner -->
+  <g transform="translate(250 30)">
+    <path d="M0 0 H300 L280 30 L300 60 H0 L20 30Z" fill="#ff4f8b"/>
+    <text x="150" y="41" text-anchor="middle" font-family="Baloo 2, Comic Sans MS, sans-serif" font-size="28" font-weight="800" fill="#fff">CONGRATULATIONS!</text>
+  </g>
+  <!-- confetti -->
+  <g>
+    <rect x="80" y="60" width="12" height="6" fill="#ff7a1a" transform="rotate(30 86 63)"/>
+    <rect x="160" y="120" width="12" height="6" fill="#2563eb" transform="rotate(-20 166 123)"/>
+    <rect x="620" y="70" width="12" height="6" fill="#22c55e" transform="rotate(45 626 73)"/>
+    <rect x="700" y="150" width="12" height="6" fill="#ff4f8b" transform="rotate(-35 706 153)"/>
+    <rect x="560" y="130" width="10" height="5" fill="#8b5cf6" transform="rotate(10 565 132)"/>
+    <rect x="230" y="160" width="10" height="5" fill="#ffb020" transform="rotate(60 235 162)"/>
+    <circle cx="120" cy="200" r="5" fill="#8b5cf6"/><circle cx="680" cy="230" r="5" fill="#ff7a1a"/>
+    <circle cx="350" cy="120" r="4" fill="#22c55e"/><circle cx="470" cy="110" r="4" fill="#2563eb"/>
+    <circle cx="40" cy="140" r="4" fill="#ff4f8b"/><circle cx="760" cy="60" r="4" fill="#ffb020"/>
+  </g>
+  <!-- podium -->
+  <rect x="300" y="330" width="200" height="120" fill="url(#stage)"/>
+  <rect x="130" y="370" width="170" height="80" fill="#2563eb"/>
+  <rect x="500" y="385" width="170" height="65" fill="#ff7a1a"/>
+  <g font-family="Baloo 2, Comic Sans MS, sans-serif" font-weight="800" fill="#fff" text-anchor="middle">
+    <text x="400" y="400" font-size="52">1</text><text x="215" y="425" font-size="42">2</text><text x="585" y="432" font-size="38">3</text>
+  </g>
+
+  <!-- winner (center) with trophy raised -->
+  <g transform="translate(340 120)">
+    <path d="M10 210 Q10 130 60 120 Q110 130 110 210Z" fill="#22c55e"/>
+    <rect x="50" y="96" width="20" height="26" fill="#b97b4f"/>
+    <ellipse cx="60" cy="70" rx="36" ry="38" fill="#c88a5d"/>
+    <path d="M24 66 Q20 26 62 30 Q102 30 98 68 Q86 46 60 48 Q36 48 24 66Z" fill="#1a110c"/>
+    <path d="M42 68 Q48 62 54 68" stroke="#1a110c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M66 68 Q72 62 78 68" stroke="#1a110c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M44 84 Q60 102 76 84Z" fill="#fff" stroke="#8a3b2a" stroke-width="3"/>
+    <path d="M100 150 Q130 110 120 60" stroke="#c88a5d" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M20 150 Q-10 110 0 60" stroke="#c88a5d" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <!-- trophy -->
+    <g transform="translate(18 -30)">
+      <path d="M10 10 H90 Q90 70 50 80 Q10 70 10 10Z" fill="url(#gold)"/>
+      <path d="M10 18 Q-12 18 -6 40 Q0 56 18 54" fill="none" stroke="#ffb800" stroke-width="7"/>
+      <path d="M90 18 Q112 18 106 40 Q100 56 82 54" fill="none" stroke="#ffb800" stroke-width="7"/>
+      <rect x="42" y="78" width="16" height="16" fill="#e08a00"/>
+      <path d="M50 26 l5 11 12 2 -9 8 2 12 -10 -6 -10 6 2 -12 -9 -8 12 -2z" fill="#fff" opacity=".9"/>
+    </g>
+  </g>
+
+  <!-- second (left) with medal & certificate -->
+  <g transform="translate(160 170)">
+    <path d="M10 200 Q10 120 55 110 Q100 120 100 200Z" fill="#ff4f8b"/>
+    <path d="M40 112 L55 150 L70 112" fill="none" stroke="#2563eb" stroke-width="6"/>
+    <circle cx="55" cy="158" r="12" fill="url(#gold)"/>
+    <rect x="46" y="88" width="18" height="24" fill="#b97b4f"/>
+    <path d="M20 50 Q14 100 34 108 L34 50Z" fill="#1a110c"/><path d="M90 50 Q96 100 76 108 L76 50Z" fill="#1a110c"/>
+    <ellipse cx="55" cy="62" rx="32" ry="34" fill="#d29466"/>
+    <path d="M22 58 Q20 22 56 24 Q92 24 88 60 Q78 40 55 42 Q32 40 22 58Z" fill="#1a110c"/>
+    <circle cx="44" cy="62" r="4" fill="#1a110c"/><circle cx="66" cy="62" r="4" fill="#1a110c"/>
+    <path d="M44 76 Q55 88 66 76" stroke="#8a3b2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <g transform="translate(70 130) rotate(-8)">
+      <rect width="60" height="44" rx="4" fill="#fff" stroke="#ffb800" stroke-width="3"/>
+      <line x1="10" y1="14" x2="50" y2="14" stroke="#c9c9d8" stroke-width="3"/><line x1="10" y1="24" x2="44" y2="24" stroke="#c9c9d8" stroke-width="3"/>
+      <circle cx="44" cy="34" r="6" fill="#ff4f8b"/>
+    </g>
+  </g>
+
+  <!-- third (right) with medal, cheering -->
+  <g transform="translate(530 185)">
+    <path d="M10 200 Q10 120 55 110 Q100 120 100 200Z" fill="#2563eb"/>
+    <path d="M40 112 L55 150 L70 112" fill="none" stroke="#ff4f8b" stroke-width="6"/>
+    <circle cx="55" cy="158" r="12" fill="#d7dbe8" stroke="#a9afc4" stroke-width="2"/>
+    <rect x="46" y="88" width="18" height="24" fill="#b97b4f"/>
+    <ellipse cx="55" cy="62" rx="32" ry="34" fill="#c08053"/>
+    <path d="M22 58 Q18 20 56 22 Q94 22 88 60 Q78 38 55 40 Q32 40 22 58Z" fill="#1a110c"/>
+    <path d="M42 62 Q46 57 50 62" stroke="#1a110c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M60 62 Q64 57 68 62" stroke="#1a110c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M42 74 Q55 90 68 74Z" fill="#fff" stroke="#8a3b2a" stroke-width="3"/>
+    <path d="M96 140 Q130 110 124 70" stroke="#c08053" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="124" cy="64" r="10" fill="#c08053"/>
+  </g>
+</svg>

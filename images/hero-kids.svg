@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3e0"/><stop offset="1" stop-color="#ffe2c2"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7c58f"/><stop offset="1" stop-color="#e9a868"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8743e"/><stop offset="1" stop-color="#8a4f22"/></linearGradient>
+    <radialGradient id="sun" cx=".8" cy=".15" r=".6"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f6b4f"/><stop offset="1" stop-color="#1f4d38"/></linearGradient>
+  </defs>
+  <rect width="800" height="550" fill="url(#wall)"/>
+  <rect width="800" height="550" fill="url(#sun)"/>
+  <!-- window -->
+  <g transform="translate(590 50)">
+    <rect width="170" height="150" rx="10" fill="#bfe3ff" stroke="#fff" stroke-width="10"/>
+    <circle cx="120" cy="45" r="22" fill="#ffd166"/>
+    <path d="M10 140 Q50 90 90 120 T170 110 V145 H10Z" fill="#7bd389"/>
+    <line x1="85" y1="0" x2="85" y2="150" stroke="#fff" stroke-width="8"/>
+  </g>
+  <!-- chalkboard -->
+  <g transform="translate(60 40)">
+    <rect width="420" height="190" rx="12" fill="#8a4f22"/>
+    <rect x="12" y="12" width="396" height="166" rx="6" fill="url(#board)"/>
+    <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".9" font-family="Baloo 2, Comic Sans MS, sans-serif">
+      <text x="40" y="80" fill="#fff" stroke="none" font-size="48" font-weight="700">23 + 45 = 68</text>
+      <text x="40" y="145" fill="#ffd166" stroke="none" font-size="40" font-weight="700">7 × 8 = 56 ★</text>
+    </g>
+    <circle cx="360" cy="60" r="20" fill="#ff7a1a" opacity=".85"/><circle cx="360" cy="120" r="20" fill="#ff4f8b" opacity=".85"/>
+  </g>
+  <!-- bunting -->
+  <path d="M0 18 Q200 60 400 22 T800 20" fill="none" stroke="#c98b55" stroke-width="2"/>
+  <g>
+    <path d="M40 26 l26 4 -10 26z" fill="#ff7a1a"/><path d="M120 36 l26 3 -12 26z" fill="#2563eb"/>
+    <path d="M200 40 l26 0 -13 26z" fill="#22c55e"/><path d="M280 34 l26 -3 -10 26z" fill="#ff4f8b"/>
+    <path d="M440 22 l26 -1 -12 26z" fill="#8b5cf6"/><path d="M520 18 l26 0 -13 26z" fill="#ffb020"/>
+  </g>
+  <!-- floor -->
+  <rect y="400" width="800" height="150" fill="url(#floor)"/>
+  <ellipse cx="400" cy="470" rx="330" ry="40" fill="#000" opacity=".08"/>
+  <!-- table -->
+  <rect x="110" y="380" width="580" height="26" rx="8" fill="#c97f45"/>
+  <rect x="140" y="404" width="18" height="110" fill="#a5612d"/><rect x="642" y="404" width="18" height="110" fill="#a5612d"/>
+
+  <!-- teacher (back right) -->
+  <g transform="translate(560 160)">
+    <path d="M30 230 Q30 120 90 110 Q150 120 150 230Z" fill="#8b5cf6"/>
+    <path d="M60 118 Q90 150 120 118" fill="none" stroke="#ffd166" stroke-width="6"/>
+    <rect x="80" y="88" width="20" height="26" fill="#c98a5c"/>
+    <ellipse cx="90" cy="65" rx="34" ry="38" fill="#d79b6e"/>
+    <path d="M54 62 Q52 18 92 22 Q132 24 126 70 Q122 40 92 38 Q66 38 58 70Z" fill="#2b1a12"/>
+    <path d="M118 46 Q150 80 130 130 Q124 90 112 60Z" fill="#2b1a12"/>
+    <circle cx="78" cy="66" r="4" fill="#2b1a12"/><circle cx="102" cy="66" r="4" fill="#2b1a12"/>
+    <path d="M80 82 Q90 92 100 82" stroke="#8a3b2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="90" cy="52" r="3" fill="#e0414b"/>
+    <path d="M40 160 Q10 170 0 130" stroke="#d79b6e" stroke-width="16" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- kid 1 (left, boy) -->
+  <g transform="translate(150 230)">
+    <path d="M10 160 Q10 80 70 72 Q130 80 130 160Z" fill="#2563eb"/>
+    <path d="M45 80 L70 105 L95 80" fill="#fff"/>
+    <rect x="60" y="54" width="20" height="24" fill="#b97b4f"/>
+    <ellipse cx="70" cy="38" rx="36" ry="38" fill="#c88a5d"/>
+    <path d="M34 34 Q30 -4 72 0 Q112 2 108 36 Q96 14 70 16 Q46 16 34 34Z" fill="#1a110c"/>
+    <ellipse cx="34" cy="42" rx="6" ry="9" fill="#c88a5d"/><ellipse cx="106" cy="42" rx="6" ry="9" fill="#c88a5d"/>
+    <path d="M52 40 Q58 34 64 40" stroke="#1a110c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M78 40 Q84 34 90 40" stroke="#1a110c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M56 56 Q70 70 84 56" fill="#fff" stroke="#8a3b2a" stroke-width="3"/>
+    <circle cx="48" cy="52" r="6" fill="#ff8a80" opacity=".5"/><circle cx="94" cy="52" r="6" fill="#ff8a80" opacity=".5"/>
+  </g>
+
+  <!-- kid 2 (right, girl) -->
+  <g transform="translate(400 222)">
+    <path d="M10 168 Q10 88 70 80 Q130 88 130 168Z" fill="#ff4f8b"/>
+    <circle cx="70" cy="110" r="6" fill="#fff"/><circle cx="70" cy="132" r="6" fill="#fff"/>
+    <rect x="60" y="62" width="20" height="24" fill="#b97b4f"/>
+    <path d="M24 50 Q16 110 40 120 L40 50Z" fill="#1a110c"/><path d="M116 50 Q124 110 100 120 L100 50Z" fill="#1a110c"/>
+    <ellipse cx="70" cy="46" rx="36" ry="38" fill="#d29466"/>
+    <path d="M32 44 Q28 4 72 6 Q114 6 110 46 Q104 22 70 24 Q40 22 32 44Z" fill="#1a110c"/>
+    <circle cx="36" cy="14" r="12" fill="#1a110c"/><circle cx="106" cy="14" r="12" fill="#1a110c"/>
+    <circle cx="40" cy="22" r="6" fill="#ffd166"/><circle cx="102" cy="22" r="6" fill="#ffd166"/>
+    <circle cx="57" cy="48" r="5" fill="#1a110c"/><circle cx="85" cy="48" r="5" fill="#1a110c"/>
+    <circle cx="59" cy="46" r="1.6" fill="#fff"/><circle cx="87" cy="46" r="1.6" fill="#fff"/>
+    <path d="M58 64 Q70 76 82 64" fill="#fff" stroke="#8a3b2a" stroke-width="3"/>
+    <circle cx="46" cy="60" r="6" fill="#ff8a80" opacity=".55"/><circle cx="96" cy="60" r="6" fill="#ff8a80" opacity=".55"/>
+  </g>
+
+  <!-- abacus on table -->
+  <g transform="translate(230 300)">
+    <rect width="320" height="96" rx="8" fill="url(#wood)"/>
+    <rect x="12" y="10" width="296" height="76" rx="4" fill="#fdf1de"/>
+    <rect x="12" y="34" width="296" height="6" fill="#8a4f22"/>
+    <g stroke="#c79a6b" stroke-width="3">
+      <line x1="40" y1="10" x2="40" y2="86"/><line x1="80" y1="10" x2="80" y2="86"/><line x1="120" y1="10" x2="120" y2="86"/>
+      <line x1="160" y1="10" x2="160" y2="86"/><line x1="200" y1="10" x2="200" y2="86"/><line x1="240" y1="10" x2="240" y2="86"/><line x1="280" y1="10" x2="280" y2="86"/>
+    </g>
+    <g>
+      <ellipse cx="40" cy="18" rx="15" ry="7" fill="#ff7a1a"/><ellipse cx="80" cy="27" rx="15" ry="7" fill="#ff4f8b"/>
+      <ellipse cx="120" cy="18" rx="15" ry="7" fill="#8b5cf6"/><ellipse cx="160" cy="27" rx="15" ry="7" fill="#2563eb"/>
+      <ellipse cx="200" cy="18" rx="15" ry="7" fill="#22c55e"/><ellipse cx="240" cy="18" rx="15" ry="7" fill="#ffb020"/>
+      <ellipse cx="280" cy="27" rx="15" ry="7" fill="#ff7a1a"/>
+      <ellipse cx="40" cy="48" rx="15" ry="7" fill="#ff7a1a"/><ellipse cx="40" cy="70" rx="15" ry="7" fill="#ff7a1a"/><ellipse cx="40" cy="79" rx="15" ry="7" fill="#ff7a1a"/>
+      <ellipse cx="80" cy="61" rx="15" ry="7" fill="#ff4f8b"/><ellipse cx="80" cy="70" rx="15" ry="7" fill="#ff4f8b"/><ellipse cx="80" cy="79" rx="15" ry="7" fill="#ff4f8b"/>
+      <ellipse cx="120" cy="48" rx="15" ry="7" fill="#8b5cf6"/><ellipse cx="120" cy="57" rx="15" ry="7" fill="#8b5cf6"/><ellipse cx="120" cy="79" rx="15" ry="7" fill="#8b5cf6"/>
+      <ellipse cx="160" cy="52" rx="15" ry="7" fill="#2563eb"/><ellipse cx="160" cy="70" rx="15" ry="7" fill="#2563eb"/><ellipse cx="160" cy="79" rx="15" ry="7" fill="#2563eb"/>
+      <ellipse cx="200" cy="48" rx="15" ry="7" fill="#22c55e"/><ellipse cx="200" cy="57" rx="15" ry="7" fill="#22c55e"/><ellipse cx="200" cy="66" rx="15" ry="7" fill="#22c55e"/>
+      <ellipse cx="240" cy="61" rx="15" ry="7" fill="#ffb020"/><ellipse cx="240" cy="70" rx="15" ry="7" fill="#ffb020"/><ellipse cx="240" cy="79" rx="15" ry="7" fill="#ffb020"/>
+      <ellipse cx="280" cy="48" rx="15" ry="7" fill="#ff7a1a"/><ellipse cx="280" cy="70" rx="15" ry="7" fill="#ff7a1a"/><ellipse cx="280" cy="79" rx="15" ry="7" fill="#ff7a1a"/>
+    </g>
+  </g>
+  <!-- kids' hands on abacus -->
+  <ellipse cx="270" cy="352" rx="14" ry="11" fill="#c88a5d"/>
+  <ellipse cx="510" cy="350" rx="14" ry="11" fill="#d29466"/>
+  <!-- books & pencils -->
+  <g transform="translate(600 352)">
+    <rect width="70" height="14" rx="3" fill="#2563eb"/><rect x="6" y="-12" width="60" height="13" rx="3" fill="#22c55e"/>
+  </g>
+  <rect x="140" y="368" width="60" height="7" rx="3" fill="#ffb020" transform="rotate(-8 170 371)"/>
+  <!-- sparkles -->
+  <g fill="#ffb020">
+    <path d="M520 120 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6z"/>
+    <path d="M300 270 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#ff4f8b"/>
+  </g>
+</svg>

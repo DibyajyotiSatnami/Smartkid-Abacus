@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".45" r=".75"><stop offset="0" stop-color="#3a2f9a"/><stop offset="1" stop-color="#14183a"/></radialGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3ab0ff" stop-opacity=".55"/><stop offset="1" stop-color="#3ab0ff" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
+    <g id="gb"><ellipse rx="20" ry="11" fill="#6fd3ff" opacity=".9"/><ellipse rx="20" ry="11" fill="none" stroke="#e6f8ff" stroke-width="2"/></g>
+  </defs>
+  <rect width="600" height="480" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#fff">
+    <circle cx="60" cy="50" r="2"/><circle cx="540" cy="90" r="2.5"/><circle cx="500" cy="30" r="1.5"/><circle cx="90" cy="400" r="2"/>
+    <circle cx="560" cy="380" r="2"/><circle cx="30" cy="220" r="1.5"/><circle cx="300" cy="30" r="1.8"/>
+  </g>
+  <circle cx="300" cy="200" r="230" fill="url(#glow)"/>
+
+  <!-- holographic abacus -->
+  <g transform="translate(130 40)" opacity=".95">
+    <rect width="340" height="170" rx="14" fill="none" stroke="#6fd3ff" stroke-width="4" filter="url(#blur)"/>
+    <rect width="340" height="170" rx="14" fill="#3ab0ff" fill-opacity=".08" stroke="#b9ecff" stroke-width="2.5"/>
+    <line x1="0" y1="56" x2="340" y2="56" stroke="#b9ecff" stroke-width="3"/>
+    <g stroke="#6fd3ff" stroke-opacity=".6" stroke-width="2">
+      <line x1="50" y1="0" x2="50" y2="170"/><line x1="110" y1="0" x2="110" y2="170"/><line x1="170" y1="0" x2="170" y2="170"/>
+      <line x1="230" y1="0" x2="230" y2="170"/><line x1="290" y1="0" x2="290" y2="170"/>
+    </g>
+    <use href="#gb" x="50" y="20"/><use href="#gb" x="110" y="42"/><use href="#gb" x="170" y="20"/><use href="#gb" x="230" y="42"/><use href="#gb" x="290" y="20"/>
+    <use href="#gb" x="50" y="72"/><use href="#gb" x="50" y="94"/><use href="#gb" x="50" y="152"/>
+    <use href="#gb" x="110" y="108"/><use href="#gb" x="110" y="130"/><use href="#gb" x="110" y="152"/>
+    <use href="#gb" x="170" y="72"/><use href="#gb" x="170" y="94"/><use href="#gb" x="170" y="116"/>
+    <use href="#gb" x="230" y="72"/><use href="#gb" x="230" y="130"/><use href="#gb" x="230" y="152"/>
+    <use href="#gb" x="290" y="72"/><use href="#gb" x="290" y="94"/><use href="#gb" x="290" y="116"/><use href="#gb" x="290" y="138"/>
+  </g>
+  <!-- floating numbers -->
+  <g font-family="Baloo 2, Comic Sans MS, sans-serif" font-weight="800" fill="#ffd166">
+    <text x="40" y="150" font-size="40" opacity=".85">+27</text>
+    <text x="480" y="170" font-size="36" opacity=".85">×6</text>
+    <text x="500" y="300" font-size="44" fill="#ff8ab5">= 162</text>
+    <text x="30" y="300" font-size="30" fill="#b9ecff" opacity=".8">÷3</text>
+  </g>
+
+  <!-- girl -->
+  <g transform="translate(180 220)">
+    <path d="M20 260 Q20 160 120 148 Q220 160 220 260Z" fill="#ffb020"/>
+    <path d="M90 154 Q120 186 150 154" fill="none" stroke="#fff" stroke-width="6"/>
+    <rect x="105" y="118" width="30" height="34" fill="#b97b4f"/>
+    <!-- braids -->
+    <path d="M52 70 Q36 150 58 196" stroke="#1a110c" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M188 70 Q204 150 182 196" stroke="#1a110c" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="58" cy="198" r="9" fill="#ff4f8b"/><circle cx="182" cy="198" r="9" fill="#ff4f8b"/>
+    <ellipse cx="120" cy="82" rx="62" ry="64" fill="#d29466"/>
+    <path d="M58 76 Q50 10 122 14 Q192 14 184 80 Q170 40 120 40 Q74 40 58 76Z" fill="#1a110c"/>
+    <!-- eyes closed, concentrating -->
+    <path d="M86 86 Q96 94 106 86" stroke="#1a110c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M134 86 Q144 94 154 86" stroke="#1a110c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M106 112 Q120 124 134 112" stroke="#8a3b2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="80" cy="104" r="9" fill="#ff8a80" opacity=".5"/><circle cx="160" cy="104" r="9" fill="#ff8a80" opacity=".5"/>
+    <circle cx="120" cy="60" r="4" fill="#ff4f8b"/>
+    <!-- hands raised moving imaginary beads -->
+    <path d="M40 230 Q0 200 10 150" stroke="#d29466" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M200 230 Q240 200 230 150" stroke="#d29466" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="10" cy="140" r="16" fill="#d29466"/><path d="M4 128 l-4 -22" stroke="#d29466" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="230" cy="140" r="16" fill="#d29466"/><path d="M236 128 l4 -22" stroke="#d29466" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <!-- thought sparkles -->
+  <g fill="#fff">
+    <path d="M190 210 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/>
+    <path d="M410 220 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4z"/>
+  </g>
+  <g stroke="#6fd3ff" stroke-width="3" stroke-dasharray="4 8" fill="none" opacity=".7">
+    <path d="M190 360 Q160 260 230 210"/><path d="M410 360 Q440 260 370 210"/>
+  </g>
+</svg>
